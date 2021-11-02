@@ -2,6 +2,11 @@ package main;
 public class Rectangle {
     private static double width;
     private static double height ;
+
+    public Rectangle(double width, double height) {
+        Rectangle.width = width;
+        Rectangle.height = height;
+    }
     public static double computeArea() {
         return width * height;
     }
